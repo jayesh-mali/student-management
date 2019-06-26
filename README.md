@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# student-management
+APIs for a student management system
+>>>>>>> 8d283869b84aa6e79c3e5e873abf506eb0fec474
