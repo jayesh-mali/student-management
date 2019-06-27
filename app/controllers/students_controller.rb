@@ -16,7 +16,7 @@ class StudentsController < ApplicationController
     def create
         student = Student.create_student(create_params,current_user.id)
         if student.errors.blank?
-            render :json => {message: "Student has been created successfully."}, status: :ok
+            render :json => {message: "Student has been created successfully."}, status: :created
         else
             render :json => {error: student.errors.full_messages}, status: :unprocessable_entity
         end

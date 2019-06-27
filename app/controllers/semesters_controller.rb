@@ -14,7 +14,7 @@ class SemestersController < ApplicationController
     def create
         semester = Semester.create_semester(create_params,current_user.id)
         if semester.errors.blank?
-            render :json => {message: "Semester has been created successfully."}, status: :ok
+            render :json => {message: "Semester has been created successfully."}, status: :created
         else
             render :json => {error: semester.errors.full_messages}, status: :unprocessable_entity
         end

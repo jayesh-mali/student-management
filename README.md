@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -6,7 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.5.3
 
 * System dependencies
 
@@ -23,7 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-=======
-# student-management
-APIs for a student management system
->>>>>>> 8d283869b84aa6e79c3e5e873abf506eb0fec474
